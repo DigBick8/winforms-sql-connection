@@ -2,7 +2,7 @@ namespace TestWins.Model;
 
 //dotnet add package MySql.Data
 using MySql.Data.MySqlClient;
-{
+
     public class ConnectionSql
     {
         private readonly string _connectionString = "server=localhost;database=student;uid=root;pwd=root;";
@@ -22,4 +22,4 @@ using MySql.Data.MySqlClient;
             return _conn;
         }
     }
-}
+
